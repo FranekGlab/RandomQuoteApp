@@ -1,4 +1,4 @@
-**This is a client which u can use to communicate with this server:**
+**This is the http client with which you can communicate with this server:**
 https://github.com/kalqa/quoters-extended
 
 Technologies used:
