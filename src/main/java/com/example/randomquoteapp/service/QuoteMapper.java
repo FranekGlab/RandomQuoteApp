@@ -1,4 +1,4 @@
-package com.example.randomquoteapp;
+package com.example.randomquoteapp.service;
 
 import com.example.randomquoteapp.proxy.Quote;
 import com.fasterxml.jackson.core.JsonProcessingException;

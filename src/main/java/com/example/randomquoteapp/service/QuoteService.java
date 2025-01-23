@@ -1,9 +1,7 @@
-package com.example.randomquoteapp;
+package com.example.randomquoteapp.service;
 
 import com.example.randomquoteapp.proxy.Quote;
 import com.example.randomquoteapp.proxy.QuoteServerProxy;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

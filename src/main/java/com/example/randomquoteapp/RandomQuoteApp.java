@@ -1,6 +1,6 @@
 package com.example.randomquoteapp;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
+import com.example.randomquoteapp.service.QuoteService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.SpringApplication;

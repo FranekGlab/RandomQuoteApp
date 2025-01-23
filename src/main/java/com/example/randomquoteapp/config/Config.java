@@ -1,4 +1,4 @@
-package com.example.randomquoteapp;
+package com.example.randomquoteapp.config;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
