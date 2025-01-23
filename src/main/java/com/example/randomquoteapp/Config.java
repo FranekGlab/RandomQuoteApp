@@ -12,5 +12,9 @@ public class Config {
         return new RestTemplate();
     }
 
+    @Bean
+    ObjectMapper objectMapper() {
+        return new ObjectMapper();
+    }
 
 }
