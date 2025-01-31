@@ -18,22 +18,22 @@ public class QuoteService {
     private final QuoteMapper quoteMapper;
 
     public Quote getQuoteByRequestParam(int id) {
-        String getQuoteByRequestParamResponse = quoteServerProxy.GetQuoteByParam(id);
+        String getQuoteByRequestParamResponse = quoteServerProxy.getQuoteByParam(id);
         return quoteMapper.mapJsonToQuote(getQuoteByRequestParamResponse);
     }
 
     public List<Quote> getQuotesByRequestHeaders(String requestHeader, String headerValue) {
-        String getQuoteByRequestHeadersResponse = quoteServerProxy.GetQuoteByHeader(requestHeader, headerValue);
+        String getQuoteByRequestHeadersResponse = quoteServerProxy.getQuoteByHeader(requestHeader, headerValue);
         return quoteMapper.mapJsonToQuotesList(getQuoteByRequestHeadersResponse);
     }
 
     public void postQuote(String quote) {
-        quoteServerProxy.PostQuote(quote);
+        quoteServerProxy.postQuote(quote);
         log.info("Quote has been successfully posted: " + quote);
     }
 
     public void deleteQuote(int id) {
-        quoteServerProxy.DeleteQuote(id);
+        quoteServerProxy.deleteQuote(id);
         log.info("Quote has been successfully deleted: " + id);
     }
 
